@@ -5,7 +5,7 @@ Customize Leaflet maps with a linked Google Sheets template and GeoJSON data on 
 
 ## Live links (replace with your own)
 - Leaflet Map https://deso-sertao.github.io/controle-de-perdas-sertao/
-- Google Sheets template https://docs.google.com/spreadsheets/d/1eYCJZiZRAhzfMSUTgSwsjzsvJ8da3BwGAT3a23Od4y4/edit#gid=0
+- Google Sheets template https://docs.google.com/spreadsheets/d/1cRGx82GnTuobxMDFk0eJrsi7rxF3ulRE3XuT1jcnFYI/edit#gid=0
 
 ## Create your own
 - See video with step-by-step tutorial in *Data Visualization for All* http://www.datavizforall.org/leaflet/with-google-sheets/
