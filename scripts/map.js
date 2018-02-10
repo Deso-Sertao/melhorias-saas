@@ -87,7 +87,7 @@ $(window).on('load', function() {
     } else {
       for (var i in layerNamesFromSpreadsheet) {
         var layerNameFromSpreadsheet = layerNamesFromSpreadsheet[i];
-        layers[layerNameFromSpreadsheet] = L.layerGroup();
+        layers[layerNameFromSpreadsheet] = L.layerSituacao();
         layers[layerNameFromSpreadsheet].addTo(map);
       }
     }
@@ -131,7 +131,7 @@ $(window).on('load', function() {
           point['Description']);
 
         if (layers !== undefined && layers.length !== 1) {
-          marker.addTo(layers[point.Group]);
+          marker.addTo(layers[point.Situacao]);
         }
 
         markerArray.push(marker);
