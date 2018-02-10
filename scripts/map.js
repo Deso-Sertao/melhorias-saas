@@ -131,7 +131,7 @@ $(window).on('load', function() {
           point['Description']);
 
         if (layers !== undefined && layers.length !== 1) {
-          marker.addTo(layers[point.Situacao]);
+          marker.addTo(layers[point.Group]);
         }
 
         markerArray.push(marker);
