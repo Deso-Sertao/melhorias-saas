@@ -70,7 +70,7 @@ $(window).on('load', function() {
     var layerNamesFromSpreadsheet = [];
     var layers = {};
     for (var i in points) {
-      var pointLayerNameFromSpreadsheet = points[i].Tipo;
+      var pointLayerNameFromSpreadsheet = points[i].Group;
       if (layerNamesFromSpreadsheet.indexOf(pointLayerNameFromSpreadsheet) === -1) {
         markerColors.push(
           points[i]['Marker Icon'].indexOf('.') > 0
@@ -87,7 +87,7 @@ $(window).on('load', function() {
     } else {
       for (var i in layerNamesFromSpreadsheet) {
         var layerNameFromSpreadsheet = layerNamesFromSpreadsheet[i];
-        layers[layerNameFromSpreadsheet] = L.layerTipo();
+        layers[layerNameFromSpreadsheet] = L.layerGroup();
         layers[layerNameFromSpreadsheet].addTo(map);
       }
     }
