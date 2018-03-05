@@ -809,8 +809,8 @@ $(window).on('load', function() {
             weight: trySetting('_polylinesWeight', 2),
           }).addTo(map);
 
-          if (p[index]['Description'] && p[index]['Description'] != '') {
-            line.bindPopup(p[index]['Description']);
+          if (p[index]['Descricao'] && p[index]['Descricao'] != '') {
+            line.bindPopup(p[index]['Descricao']);
           }
 
           polylinesLegend.addOverlay(line,
