@@ -1,0 +1,4 @@
+- implantar mecanismo de busca dentro da tabela de protocolos - deixar a experência parecida com QGIS
+- incluir contagem de registros nas entradas da legenda
+- possibilidade de incluir uma barra de status com: escala, coordenadas do ponto do mouse
+- alterar a folha de estilos (css) associada ao script de cluster map oint, para que não gere confusão na leitura da legenda.
