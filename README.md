@@ -4,8 +4,8 @@ Customize Leaflet maps with a linked Google Sheets template and GeoJSON data on 
 ![Preview](preview.jpg)
 
 ## Live links (replace with your own)
-- Leaflet Map https://deso-sertao.github.io/demandas-desosertao-ct
-- Google Sheets template https://docs.google.com/spreadsheets/d/1-yyhCFV2Y-nvh0kxAGbT4LvJozeoF5PwcsIJdJefG6k/edit#gid=0
+- Leaflet Map https://deso-sertao.github.io/melhorias-saas
+- Google Sheets template https://docs.google.com/spreadsheets/d/1SZ07lSbOySfw89IosYb9zoLVXMhdc1AAv2ZnuRx0_WE/edit#gid=0
 
 ## Create your own
 - See video with step-by-step tutorial in *Data Visualization for All* http://www.datavizforall.org/leaflet/with-google-sheets/
